@@ -55,13 +55,34 @@
               Рассмотрим пример:
             </p>
           </div>
-
           <div class="code-image">
             <img
               src="article-design\2744EFD6-B878-4DCB-B0D5-526F1B233733\CA501510-E978-4377-9076-8F392B899C1B@3x.png"
               alt="Пример лексического окружения в JavaScript"
               width="450px"
             />
+          </div>
+        </section>
+        <section class="article-section">
+          <div class="article-text">
+            <p>
+              Здесь у функции <span class=code>inner()</span> есть доступ к переменным, объявленным в её собственной области видимости, в области видимости функции <span class=code>outer()</span> и в глобальной области видимости. Функция <span class=code>outer()</span> имеет доступ к переменным, объявленным в её собственной области видимости и в глобальной области видимости. 
+              Цепочка областей видимости вышеприведённого кода будет выглядеть так:
+            </p>
+          </div>
+          <div class="code-image">
+            <img
+              src="article-design\2744EFD6-B878-4DCB-B0D5-526F1B233733\848B0BFD-C857-4F1E-93BF-3822E0A81A7E@0.5x.png"
+              alt="Пример лексического окружения в JavaScript"
+              width="450px"
+            />
+          </div>
+        </section>
+        <section class="article-section">
+          <div class="article-text">
+            <p>
+              Обратите внимание на то, что функция <span class=code>inner()</span> окружена лексическим окружением функции <span class=code>outer()</span>, которая, в свою очередь, окружена глобальной областью видимости. Именно поэтому функция <span class=code>inner()</span> может получить доступ к переменным, объявленным в функции <span class=code>outer()</span> и в глобальной области видимости.
+            </p>
           </div>
         </section>
       </article>
