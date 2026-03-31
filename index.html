@@ -6,21 +6,10 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <aside class="sidebar">
-      <div class="sidebar-header">
-        <h3>Page 1</h3>
-      </div>
-      <nav class="sidebar-nav">
-        <div class="nav-item active">
-          <span>Desktop HD</span>
-          <span class="nav-item-arrow"></span>
-        </div>
-      </nav>
-    </aside>
 
     <div class="main-wrapper">
       <header class="header">
-        <div class="logo">Marketch</div>
+        <div class="logo">LOGO</div>
       </header>
 
       <article class="article-content">
@@ -65,23 +54,14 @@
               и объектам на основе их физического расположения в исходном коде.
               Рассмотрим пример:
             </p>
+          </div>
 
-            <p>
-              Здесь у функции inner() есть доступ к переменным, объявленным в её
-              собственной области видимости, в области видимости функции outer()
-              и в глобальной области видимости. Функция outer() имеет доступ к
-              переменным, объявленным в её собственной области видимости и в
-              глобальной области видимости. Цепочка областей видимости
-              вышеприведённого кода будет выглядеть так:
-            </p>
-
-            <p>
-              Обратите внимание на то, что функция inner() окружена лексическим
-              окружением функции outer(), которая, в свою очередь, окружена
-              глобальной областью видимости. Именно поэтому функция inner()
-              может получить доступ к переменным, объявленным в функции outer()
-              и в глобальной области видимости.
-            </p>
+          <div class="code-image">
+            <img
+              src="article-design\2744EFD6-B878-4DCB-B0D5-526F1B233733\CA501510-E978-4377-9076-8F392B899C1B@3x.png"
+              alt="Пример лексического окружения в JavaScript"
+              width="450px"
+            />
           </div>
         </section>
       </article>
