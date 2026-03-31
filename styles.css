@@ -91,11 +91,12 @@ body {
 /* Активная ссылка (Блог) */
 .nav-link-active {
     color: #e74c3c;
+    text-decoration: none;
 }
 
 .nav-link-active:hover {
     color: #e74c3c;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     text-decoration-color: #e74c3c;
 }
 
